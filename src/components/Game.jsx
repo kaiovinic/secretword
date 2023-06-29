@@ -35,7 +35,7 @@ const Game = ({
       </h3>
       <p>Você ainda tem {guesses} tentativas(s).</p>
       <div className="wordContainer">
-        {letters.map((letters, i) =>
+        {letters.map((letter, i) =>
           guessedLetters.includes(letter) ? (
             <span key={i} className="letter">
               {letter}
